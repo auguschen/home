@@ -1,2 +1,10 @@
 <?php
-	echo "pull web here.";
+namespace app\pullweb\controller;
+
+class Index
+{
+	public function index()
+	{
+		return "pull web here.";
+	}
+}
